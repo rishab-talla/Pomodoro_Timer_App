@@ -5,7 +5,7 @@ import ModeSwitcher from "./components/ModeSwitcher";
 import Controls from "./components/Controls";
 
 function App() {
-  const defaults = { work: 25, shortBreak: 5, longBreak: 15 };
+  const defaults = { work: .25, shortBreak: 5, longBreak: 15 };
   const audioRef = useRef(null);
 
   const handleSessionEnd = (endedMode) => {
