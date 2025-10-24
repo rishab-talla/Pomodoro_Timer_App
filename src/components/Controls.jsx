@@ -7,7 +7,7 @@ export default function Controls({
   resetAll,
 }) {
   return (
-    <div className="flex gap-4 mt-6">
+    <div className="flex flex-wrap gap-4 mt-6">
       {isRunning ? (
         <button
           onClick={pause}

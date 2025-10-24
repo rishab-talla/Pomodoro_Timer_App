@@ -7,7 +7,7 @@ function ModeSwitcher({ currentMode, setMode }) {
     }`;
 
   return (
-    <div className="flex gap-2 mb-4">
+    <div className="flex gap-2 mb-4 mx-auto">
       <button
         onClick={() => setMode("work")}
         className={buttonClasses("work")}

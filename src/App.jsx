@@ -34,8 +34,8 @@ function App() {
   } = useTimer(defaults, { onSessionEnd: handleSessionEnd });
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-4">
-      <h1 className="text-3xl font-bold mb-6">Pomodoro Timer</h1>
+    <div className="min-h-screen flex flex-col items-center bg-gray-900 text-white p-4">
+      <h1 className="text-3xl font-bold mb-6 mt-5">Pomodoro Timer</h1>
 
       <ModeSwitcher currentMode={mode} setMode={setMode} />
 
